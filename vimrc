@@ -25,3 +25,7 @@ if 1
     execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 endif
 " vim:set et sw=2
+
+set timeoutlen=0
+set cursorline
+set autoread
